@@ -1,0 +1,25 @@
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold">welcome to online exam</h1>
+    <p class="col-md-8 fs-4">Exam Contains 9 Question ,Each question carry mark:10</p>
+    <h4>Instructions:</h4>
+    <ol>
+        <li>
+            correct question gives you 10 marks.
+        </li>
+        <li>
+            incorrect question gives you -10 marks.
+        </li>
+        <li>
+            Each question has limited time.
+        </li>
+        <li>
+            please ensure you have good network connection.
+        </li>
+    </ol>
+    <h1 style="font-family: cursive;text-align:center">All the best!!</h1>
+    <div class="name col-md-4 my-3">
+        <label for="">Enter your name:</label>
+        <input #name type="text" class="form-control">
+    </div>
+    <button class="btn btn-primary btn-lg" routerLink="/question" (click)="start()">Start </button>
+</div>
